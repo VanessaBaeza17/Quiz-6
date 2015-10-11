@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int stars(int num){
+int star = num;
+while (star>0){
+  cout << "*";
+  star = star -1;
+}
+return 0;
+}
+
+int main(){
+  int num;
+  cout << "How many stars do you want? " << endl;
+  cin >> num;
+  stars(num);
+  return 0;
+}
